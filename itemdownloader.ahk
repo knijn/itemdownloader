@@ -24,8 +24,8 @@ download:
     GuiControlGet, URL
     GuiControlGet, File  
     
-    MsgBox, %URL%
-    MsgBox, %File%
+    ;MsgBox, %URL%
+    ;MsgBox, %File%
     
     SB_SetText("Downloading file...")
     UrlDownloadToFile, %URL%, %File%
